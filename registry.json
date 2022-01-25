@@ -1108,6 +1108,32 @@
     }
   },
   {
+    "id": "binancetest",
+    "name": "Binance Test",
+    "displayName": "BNB",
+    "coinId": 715,
+    "symbol": "BNB",
+    "decimals": 8,
+    "blockchain": "Binance",
+    "derivationPath": "m/44'/714'/0'/0/0",
+    "curve": "secp256k1",
+    "publicKeyType": "secp256k1",
+    "hrp": "tbnb",
+    "explorer": {
+      "url": "https://explorer.binance.org",
+      "txPath": "/tx/",
+      "accountPath": "/address/",
+      "sampleTx": "A93625C9F9ABEA1A8E31585B30BBB16C34FAE0D172EB5B6B2F834AF077BF06BB",
+      "sampleAccount": "bnb1u7jm0cll5h3224y0tapwn6gf6pr49ytewx4gsz"
+    },
+    "info": {
+      "url": "https://binance.org",
+      "source": "https://github.com/binance-chain/node-binary",
+      "rpc": "https://dex.binance.org",
+      "documentation": "https://docs.binance.org/api-reference/dex-api/paths.html"
+    }
+  },
+  {
     "id": "vechain",
     "name": "VeChain",
     "coinId": 818,
